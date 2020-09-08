@@ -1,0 +1,41 @@
+body {
+  background-size:cover;
+  background-image: url(img/pc5.jpg);
+}
+
+.jumbotron {
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+img
+{
+  margin: 10px;
+  height: 350px;
+  width: 650px;
+  transition: all 1s;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.container2
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-family: fantasy;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 100%;
+  color: #000;
+}
