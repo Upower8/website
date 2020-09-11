@@ -1,13 +1,13 @@
 body {
   background-size:cover;
-  background-image: url(img/pc5.jpg);
+  background-image: url(pc4.jpg);
 }
 
 .jumbotron {
   background-blend-mode: darken;
   background-size: cover;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  margin: 10px 10px;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -38,4 +38,24 @@ h1{
   display: block;
   font-size: 100%;
   color: #000;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn-link:focus, .btn-link.focus {
+  text-decoration: underline;
+}
+
+.btn-link:disabled, .btn-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
 }

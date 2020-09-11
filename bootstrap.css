@@ -188,6 +188,15 @@ pre {
   -ms-overflow-style: scrollbar;
 }
 
+.coolTitle {
+  text-align:left;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: blue;
+}
+
 figure {
   margin: 0 0 1rem;
 }
